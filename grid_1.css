@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+#cabecera_inicio{
+	background-color: #F5ECE9;
+}
+
+#logo img{
+width: 150px;
+}
+
+#logop img{
+	width: 150px;
+	}
+
+.navbar-brand{
+		margin-right: 0;
+		padding: 0 1em;
+	
+	}
+	
+.navbar-nav{
+		align-items: center;
+	}

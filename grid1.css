@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #5562B4;
+}
+
+#cabecera_inicio1{
+	background-color: #5562B4;
+}
+
+#logo2{
+width: 125px;
+}
+
+#logop img{
+	width: 140px;
+	}
+.navbar-brand{
+		margin-right: 0;
+		padding: 0 1em;
+	
+	}
+	
+.navbar-nav{
+		align-items: center;
+	}
+
+.navbar .navbar-nav .nav-link{
+		color: #F58633;
+		padding: 0 1em;
+		font-weight: 500;
+		font-size: 16px;
+		}
+
+#ofertastexto {
+	color: #F58633;
+	font-weight: 500;
+	font-size: 22px;
+}
+
+#ofertastexto h1{
+	font-size: 40px;
+}
+
+#encuadre{
+	max-width: 570px;
+	color: #F58633;
+}
+
+#email p{
+	margin-bottom: 0;
+	color: #F58633;
+	font-weight: 25px;
+}
+#texto3pp{
+	font-size: 29px;
+	font-weight: 400;
+	color: #F58633;
+	}
+
+	#enviar{
+		background-color:#F58633;
+		color: #F58633;
+	}
+	
+	#enviar button{
+		background-color: #F58633;
+		color: #5562B4;
+		border: none;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		font-weight: 700;
+	}
+
+	footer{
+		background-color: #F79850;
+	}
+
+	#logo3{
+		width: 150px;
+		justify-content: center;
+		}
+
+#foto h1{
+	color: #5562B4;
+	font-size: 20px;
+	margin-bottom: 2px;	
+	margin-top: 3px;
+}
+#foto p{ 
+	font-size: 18px;
+	color: #5562B4;
+	margin-top: 2px;
+}
+
+#cont_inicio2{
+	background-color: #717CC1;
+}
+
+#primertexto h1{
+	color: #F8A363;
+	font-size: 60px;
+	letter-spacing: 2px;
+}
+
+#primertexto h2{
+	color: #F8A363;
+	font-size:60px;
+	letter-spacing: 25px;
+}
+
+#primertexto p{
+	color: #fff;
+	font-size: 15.5px;
+}
+
+#mrpfoto img{
+	width: 100%;
+}
+
+#primertexto1 h1{
+	color: #F8A363;	
+}
+#primertexto1 p{
+	color: #Fff;	
+}
+
+.confirmar{
+	background-color: #F8A363;
+	font-size: 20px;
+	color: #717CC1;
+	width: 100%;
+	font-weight: 500;
+}
+
+.cas{
+	background-color: transparent;
+}
+
+
+form input{
+	margin-top: 10px;
+	border-radius: 0px;
+}
+
+#produtextot{
+	color: #F58633;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.card-title{
+	color: #F8A363;
+}
+
+.card-img-top:hover{
+	background-color:#F8A363 ;
+	transition-duration: 3s;
+}
+
+@media (max-width:1480px) {	
+	#primertexto h1{
+		font-size:50px;
+	}
+	#primertexto h2{
+		font-size:50px;
+	}
+	#primertexto p{
+		color: #fff;
+		font-size: 15px;
+	}	
+}
+
+@media (max-width:1280px) {	
+	#primertexto h1{
+		font-size:45px;
+	}
+	#primertexto h2{
+		font-size:45px;
+		letter-spacing: 15px;
+	}
+	#primertexto p{
+		color: #fff;
+		font-size: 13px;
+	}	
+}
+
+@media (max-width:1130px) {	
+	#primertexto h1{
+		font-size:40px;
+	}
+	#primertexto h2{
+		font-size:40px;
+		letter-spacing: 15px;
+	}
+	#primertexto p{
+		color: #fff;
+		font-size: 12px;
+	}	
+}
+
+@media (max-width:1060px) {	
+	#primertexto h1{
+		font-size:37px;
+	}
+	#primertexto h2{
+		font-size:37px;
+		letter-spacing: 15px;
+	}
+	#primertexto p{
+		color: #fff;
+		font-size: 10px;
+	}	
+}
+
+@media (max-width:980px) {	
+	#primertexto h1{
+		font-size:33px;
+	}
+	#primertexto h2{
+		font-size:33px;
+		letter-spacing: 15px;
+	}
+	#primertexto p{
+		color: #fff;
+		font-size:8px;
+	}	
+}
+
+@media (max-width:980px) {	
+	#primertexto h1{
+		font-size:30px;
+	}
+	#primertexto h2{
+		font-size:30px;
+		letter-spacing: 13px;
+	}
+	#primertexto p{
+		color: #fff;
+		font-size:8px;
+	}	
+}
+
+
+@media (max-width:767px) {	
+	#primertexto h1{
+		font-size:53px;
+		text-align: center;
+	}
+	#primertexto h2{
+		font-size:53px;
+		text-align: center;
+		letter-spacing: 13px;
+	}
+	#primertexto p{
+		color: #fff;
+		font-size:15px;
+		padding: 10px;
+		margin-top: 10px;
+	}	
+}
+
+@media (max-width:576px) {
+	#foto p{ 
+		font-size: 16px;
+		}
+
+		#primertexto h1{
+			font-size:38px;
+			text-align: center;
+		}
+		#primertexto h2{
+			font-size:38px;
+
+		}
+
+
+}
